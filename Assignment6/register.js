@@ -23,10 +23,14 @@ function validateForm() {
     }
     else if( x.value !== y.value) 
     {
-        
-        alert(" password not the same ");
 
+       
+        
+        var error = document.getElementById("errormsg");
+        
+        error.textContent = "password not match";
         return false; 
+        
 
     
     }
