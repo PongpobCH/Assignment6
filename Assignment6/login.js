@@ -24,7 +24,7 @@ function checkLogin(){
 
 	if (x.value == usernamecheck && y.value == passwordcheck)
 	{
-		//alert("Proceed to next Page")
+		alert("Proceed to next Page")
 	}
 	else if (x.value != usernamecheck ^ y.value != passwordcheck)
 	{
